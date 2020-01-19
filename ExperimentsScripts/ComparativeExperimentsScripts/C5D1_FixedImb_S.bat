@@ -748,40 +748,26 @@ java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag
 
 rem MUOB
 java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask ALPrequentialEvaluationTaskrw -l (ALUncertaintyTrue -l (meta.MOOBMUOB -m 1 -s 10) -d VarUncertainty -b 0.2 -n 500.0 -s 10) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprALWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\AL-VarUncertainty-MUOB-b0.2-s10.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\AL-VarUncertainty-MUOB-b0.2-s10.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 1) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s1.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s1.csv
-
-rem CALFMID b0.15
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.15 -s 2) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.15-s2.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.15-s2.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 2) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s2.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s2.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 3) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s3.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s3.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 4) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s4.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s4.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 5) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s5.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s5.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 6) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s6.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s6.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 7) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s7.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s7.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 8) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s8.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s8.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 9) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s9.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s9.csv
-
-rem CALFMID b0.2
-java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 10) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALFMID-b0.2-s10.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALFMID-b0.2-s10.csv
-
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 1) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s1.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s1.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 2) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s2.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s2.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 3) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s3.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s3.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 4) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s4.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s4.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 5) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s5.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s5.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 6) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s6.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s6.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 7) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s7.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s7.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 8) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s8.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s8.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 9) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s9.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s9.csv
+rem CALF-MID b0.2
+java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCEvaluatePrequential -l (active.CALFMID -b 0.2 -s 10) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\CALF-MID-b0.2-s10.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\CALF-MID-b0.2-s10.csv
 rem OALDI 0.2
 java -cp C:\experiencesLWK\MOA\moa.jar -javaagent:C:\experiencesLWK\MOA\sizeofag-1.0.0.jar moa.DoTask AUCOALDITask -l (OALDI -r 0.2 -s 1) -s (ArffFileStream -f C:\experiencesLWK\applieddatasets\C5D1_FixedImb_S.arff) -e (afprWindowClassificationPerformanceEvaluator -w 1000000 -o -p -r -f -b) -f 1000000 -q 1000000 -d C:\experiencesLWK\output\Results\C5D1_FixedImb_S\OALDI-b0.2-s1.csv -z C:\experiencesLWK\output\ResultsAUC\C5D1_FixedImb_S\OALDI-b0.2-s1.csv
 rem OALDI 0.2
