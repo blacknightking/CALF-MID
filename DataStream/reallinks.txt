@@ -1,0 +1,4 @@
+1.Sensor, PowerSupply, HyperPlane
+http://www.cse.fau.edu/∼xqzhu/stream.html
+2.CoverType,PokerHand
+https://www.openml.org/
